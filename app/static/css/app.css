@@ -2,6 +2,28 @@ body {
     padding-top: 5rem;
 }
 
-footer  {
+footer {
     padding-top: 20px;
+}
+
+#img-new {
+    width: 100%;
+    height: 80%;
+}
+
+.card {
+    list-style-type: none;
+    border-top: 5px rgb(80, 201, 80) solid !important;
+    border-radius: 6px;
+    box-shadow: 2px 2px 15px gray;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-gap: 10px;
+}
+
+h2 {
+    text-align: center;
 }
